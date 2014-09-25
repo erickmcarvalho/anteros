@@ -34,8 +34,10 @@ Open up `app/config/app.php` and find the providers key towards the bottom.
 You won't need to add anything to the aliases section.
 
 
-Configuration: Mssql Database
+Configuration
 =============
+
+- **Mssql Database**
 
 The configuration database is not separate to Anteros.  You'll just add a new array to the `connections` array in `app/config/database.php`.
 

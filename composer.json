@@ -1,0 +1,23 @@
+{
+    "name": "erickmcarvalho/anteros",
+    "description": "Implementations for Laravel 4 Framework",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Erick Carvalho",
+            "email": "erick.mcarvalho@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.0",
+        "erickmcarvalho/likepdo": "0.1.*",
+        "illuminate/support": "4.1.*",
+        "illuminate/database": "4.1.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Anteros": "src/"
+        },
+    }
+}
