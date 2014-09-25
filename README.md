@@ -4,7 +4,6 @@ Laravel Anteros
 Implementations for Laravel 4 Framework
 
 =======
-
 ## Features
 
 - Mssql Driver Connection - Using standard features from [MSSQL library](http://php.net/manual/en/book.mssql.php)
