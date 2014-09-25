@@ -28,7 +28,7 @@ Open up `app/config/app.php` and find the providers key towards the bottom.
 
  Add the following to the list of providers:
 ```php
-'erickmcarvalho\Anteros\AnterosServiceProvider'
+'Anteros\AnterosServiceProvider'
 ```
 
 You won't need to add anything to the aliases section.

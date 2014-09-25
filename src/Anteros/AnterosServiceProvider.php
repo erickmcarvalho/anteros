@@ -38,10 +38,10 @@ class AnterosServiceProvider extends ServiceProvider
 				$config['prefix'] = NULL;
 			}
 			
-			$connector = new Anteros\Database\Connectors\MssqlConnector();
+			$connector = new \Anteros\Database\Connectors\MssqlConnector();
 			$pdo = $connector->connect($config);
 			
-			return new Anteros\Database\Connections\MssqlConnection($pdo, $config['database'], $config['prefix']);
+			return new \Anteros\Database\Connections\MssqlConnection($pdo, $config['database'], $config['prefix']);
 		});
 	}
 	
