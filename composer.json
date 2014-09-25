@@ -11,9 +11,9 @@
     "minimum-stability": "dev",
     "require": {
         "php": ">=5.3.0",
-        "erickmcarvalho/likepdo": "0.1.*",
-        "illuminate/support": "4.1.*",
-        "illuminate/database": "4.1.*"
+        "erickmcarvalho/likepdo": "0.*.*",
+        "illuminate/support": "4.*.*",
+        "illuminate/database": "4.*.*"
     },
     "autoload": {
         "psr-0": {
