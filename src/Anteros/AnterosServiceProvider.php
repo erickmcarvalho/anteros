@@ -31,7 +31,7 @@ class AnterosServiceProvider extends ServiceProvider
 		//=====================================================
 		
 		$factory = $this->app['db'];
-		$factory->extend("mssql", function($config)
+		$factory->extend("anteros:mssql", function($config)
 		{
 			if(!isset($config['prefix']))
 			{
