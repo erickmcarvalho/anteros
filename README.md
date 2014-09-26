@@ -42,8 +42,8 @@ Configuration
 The configuration database is not separate to Anteros.  You'll just add a new array to the `connections` array in `app/config/database.php`.
 
 ```
-		'anteros:mssql' => array(
-			'driver'   =>   'mssql',
+		'mssql' => array(
+			'driver'   =>   'anteros:mssql',
             'host'     =>   'localhost',
             'database' =>   'database',
             'username' =>   'sa',
