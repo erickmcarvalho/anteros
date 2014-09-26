@@ -9,6 +9,7 @@
 namespace Anteros\Database;
 
 use Illuminate\Database\Connection as LaravelConnection;
+use LikePDO\LikePDO;
 
 class Connection extends LaravelConnection
 {
